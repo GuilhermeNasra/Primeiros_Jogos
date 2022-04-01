@@ -47,6 +47,7 @@ def jogar():
         pontos = pontos - abs(chute - numero_secreto)
 
     print("Fim do jogo!")
+    print(numero_secreto)
 
 
 if __name__ == "__main__":
